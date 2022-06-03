@@ -6,7 +6,7 @@ This repo (in progress) contains all a developer needs to know about both how to
 ***
 
 ### The LWC Jest Testing Wiki  
-Housed within this repo is a <a href="https://github.com/Coding-With-The-Force/Salesforce_Separation_Of_Concerns/wiki" target="_blank">wiki</a> that goes into detail about every area of Jest testing you need to be knowledgeable on to write tests successfully.  
+Housed within this repo is a <a href="https://github.com/Coding-With-The-Force/Salesforce-LWC-Jest-Testing-Guide/wiki" target="_blank">wiki</a> that goes into detail about every area of Jest testing you need to be knowledgeable on to write tests successfully.  
 
 ***
 
