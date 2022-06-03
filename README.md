@@ -1,4 +1,4 @@
-# Salesforce-LWC-Jest-Testing-Guide  
+# The Complete Guide to LWC Jest Testing in Salesforce
 
 ### What Is This Repo?  
 This repo (in progress) contains all a developer needs to know about both how to setup your Salesforce project(s) to start creating Jest tests for your LWC's and how to actually create and run Jest test for your LWC's.
