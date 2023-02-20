@@ -1,0 +1,21 @@
+<template>
+    <div class="navigation">
+        {currPage}
+    </div>
+
+    <c-jest-demo-child case-data={cases}></c-jest-demo-child>
+
+    <lightning-button class="renderButton" onclick={renderNewParagraph}></lightning-button>
+    <template lwc:if={showNewParagraph}>
+        <p class="newParagraph">Wow I love Tacos</p>
+    </template>
+    <template for:each={tacoList} for:item="taco">
+        <p class="tacoInfo" key={taco.Id}>{taco.TacoType}</p>
+    </template>
+    <template for:each={accounts.data} for:item="accountItem">
+        <div key={accountItem.Id} class="acctInfo">
+            {accountItem.Name}
+        </div>
+    </template>
+    <p class="tacoStuff">{tacoStuff}</p>
+</template>

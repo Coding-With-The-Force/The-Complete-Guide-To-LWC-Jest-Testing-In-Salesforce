@@ -1,0 +1,7 @@
+<template>
+    <template for:each={caseData} for:item="caseRecord">
+        <p key={caseRecord.Id} class="caseInfo">
+            {caseRecord.Subject}
+        </p>
+    </template>
+</template>
